@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary: #1eb5b2;
+  --secondary: #ffd030;
+  --pink: #ffb6bd;
+  --purple: #4936b5;
+  --white: #fff;
+}
+
+html {
+  /* font: 112.5%/1.45em georgia, serif; */
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+@media (max-width: 575.98px) {
+  html {
+    font-size: 56.25%;
+  }
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: var(--white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* font-size: calc(16px + 0.35vw); */
+  /* line-height: calc(22px + 1.05vw); */
+}
+a:link,
+a:hover {
+  list-style: none;
+  text-decoration: none;
+}
+/* text-rendering: optimizeLegibility; */
+a,
+p {
+  font-size: 1.6rem;
+}
+h1 {
+  margin-bottom: 1.45rem;
+  font-weight: 700;
+  font-size: 2.912rem;
+  line-height: calc(30px + 1.8vw);
+}
+h2 {
+  margin-bottom: 1.45rem;
+  font-weight: 500;
+  font-size: 2.616rem;
+  line-height: calc(30px + 1vw);
+}
+h3 {
+  font-weight: 400;
+  margin-bottom: 1.45rem;
+  font-size: 2.471rem;
+  line-height: calc(30px + 0.7vw);
+}
+h4 {
+  margin-bottom: 1.45rem;
+  font-weight: 500;
+  font-size: 2.3rem;
+  line-height: calc(30px + 0.2vw);
+}
+h5 {
+  font-weight: 500;
+  margin-bottom: 1.45rem;
+  font-size: 2.243rem;
+  line-height: calc(30px + 0.2vw);
+}
+h6 {
+  font-weight: 500;
+  margin-bottom: 1.45rem;
+  font-size: 2.132rem;
+  line-height: calc(30px + 0.2vw);
+}
+/*  */
+
+.header {
+  position: relative;
+  height: 6rem;
+}
+.header_box_one {
+  background: #1eb5b2;
+  border-radius: 0px 0px 40px 0px;
+  width: 90%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+
+.header_box_two {
+  width: 38.5%;
+  height: 6rem;
+  background: #ffd030;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+nav {
+  color: var(--white);
+  padding: 2rem 1rem;
+}
+
+nav a {
+  padding-right: 1rem;
+}
+nav a:link {
+  color: var(--white);
+}
+nav a:visited {
+  color: var(--white);
+}
+
+@media (max-width: 575.98px) {
+  nav {
+    padding: 2rem 0rem;
+  }
+}
