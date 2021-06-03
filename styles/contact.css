@@ -2,3 +2,53 @@ header {
   position: relative;
   height: 6rem;
 }
+/* main {
+  max-width: 114rem;
+  margin: 0 auto;
+} */
+.font_grey {
+  /* color: #a9a9a9; */
+  color: #6c757d;
+}
+.contact_layer_one {
+  text-align: center;
+  margin: 4rem 0;
+}
+.contact_layer_one_name {
+  margin-bottom: 2rem;
+}
+.contact_layer_one_name h6 {
+  margin-bottom: 0;
+}
+.contact_layer_one img {
+  border-radius: 50%;
+  width: 25rem;
+  height: 25rem;
+}
+.contact_layer_two_container {
+  background-color: #000;
+}
+.contact_layer_two {
+  max-width: 114rem;
+  margin: 0 auto;
+  color: #fff;
+  padding: 5rem 0;
+  display: flex;
+}
+.contact_layer_two div {
+  width: 50%;
+}
+.contact_layer_two_left {
+  /* display: flex; */
+  /* justify-content: flex-end; */
+}
+.contact_layer_two_right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.contact_layer_two_right button {
+  padding: 1.5rem 2.5rem;
+  font-weight: 600;
+  height: 5rem;
+}

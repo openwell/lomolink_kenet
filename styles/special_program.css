@@ -1,0 +1,25 @@
+.special_program {
+  background-color: #4936b5;
+  color: #fff;
+  padding: 2rem;
+  max-width: 90rem;
+  margin: 3rem auto;
+  border-bottom-right-radius: 1rem;
+  text-align: justify;
+}
+.special_program_item {
+  display: flex;
+  justify-content: space-between;
+
+  /* background-color: #4936b5; */
+}
+.special_program_item-left {
+  width: 45%;
+}
+.special_program_item-right {
+  width: 45%;
+}
+.special_program_item-right ul {
+  line-height: 2;
+  padding-left: 2rem;
+}
