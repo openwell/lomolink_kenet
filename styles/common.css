@@ -43,7 +43,7 @@ p {
   font-size: 1.6rem;
 }
 li {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 h1 {
   margin-bottom: 1.45rem;
@@ -172,6 +172,10 @@ footer a {
 }
 @media (max-width: 575.98px) {
   footer {
-    justify-content: space-between;
+    flex-direction: column;
+  }
+  footer > div {
+    margin-bottom: 2rem;
+    width: 100%;
   }
 }

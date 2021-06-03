@@ -38,9 +38,8 @@ header {
 .contact_layer_two div {
   width: 50%;
 }
-.contact_layer_two_left {
-  /* display: flex; */
-  /* justify-content: flex-end; */
+.contact_layer_one_info_sub_one {
+  margin: 3rem 0;
 }
 .contact_layer_two_right {
   display: flex;
@@ -51,4 +50,16 @@ header {
   padding: 1.5rem 2.5rem;
   font-weight: 600;
   height: 5rem;
+}
+@media (max-width: 575.98px) {
+  .contact_layer_two {
+    flex-direction: column;
+  }
+  .contact_layer_two div {
+    width: 100%;
+  }
+  .contact_layer_two_right {
+    display: block;
+    margin-top: 2rem;
+  }
 }

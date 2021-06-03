@@ -13,8 +13,6 @@
 .special_program_item {
   display: flex;
   justify-content: space-between;
-
-  /* background-color: #4936b5; */
 }
 .special_program_item-left {
   width: 45%;
@@ -35,4 +33,16 @@
   content: '\f00c';
   color: #ffd030;
   margin-right: 1rem;
+}
+@media (max-width: 600px) {
+  .special_program_item {
+    flex-direction: column;
+  }
+  .special_program_item-left {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .special_program_item-right {
+    width: 100%;
+  }
 }

@@ -122,6 +122,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 1rem;
+  flex-wrap: wrap;
 }
 .service_layer_five_items img {
   width: 25rem;
@@ -158,4 +159,20 @@
   .service_layer_four_right {
     width: 80%;
   }
+}
+@media (max-width: 500px) {
+  .service_layer_five_items {
+    justify-content: center;
+    text-align: center;
+  }
+  .service_layer_five h1 {
+    padding-left: 4rem;
+  }
+  .service_layer_five_items div {
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+  /* .service_layer_five_items img {
+   
+  } */
 }
