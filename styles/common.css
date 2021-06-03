@@ -128,3 +128,43 @@ nav a:visited {
     padding: 2rem 0rem;
   }
 }
+footer {
+  width: 100%;
+  background-color: #4a39ac;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  flex-wrap: wrap;
+}
+footer > div {
+  max-width: 25rem;
+  width: 100%;
+}
+footer a {
+  color: #dcdce0;
+  margin-bottom: 1rem;
+}
+.footer_links {
+  display: flex;
+  flex-direction: column;
+}
+.social_list {
+  display: flex;
+}
+.social_list img {
+  margin-right: 1rem;
+  width: 70%;
+}
+.footer_address {
+  display: flex;
+  flex-direction: column;
+}
+.footer_address p {
+  margin-bottom: 1rem;
+}
+@media (max-width: 575.98px) {
+  footer {
+    justify-content: space-between;
+  }
+}

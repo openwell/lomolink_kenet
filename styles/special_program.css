@@ -7,6 +7,9 @@
   border-bottom-right-radius: 1rem;
   text-align: justify;
 }
+.special_program:nth-of-type(even) {
+  background-color: #36b590;
+}
 .special_program_item {
   display: flex;
   justify-content: space-between;
