@@ -105,8 +105,12 @@
 }
 .service_layer_five_items img {
   width: 25rem;
+  height: 16.6rem;
   /* height: 25rem; */
   object-fit: contain;
+}
+.service_layer_five_items p {
+  color: #a9a9a9;
 }
 @media (max-width: 800px) {
   .service_layer_one,
