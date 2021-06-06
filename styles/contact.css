@@ -81,7 +81,7 @@ header {
 @media (max-width: 575.98px) {
   .contact_layer_type_form,
   .contact_layer_type_form > div:nth-of-type(1) {
-    padding: 2rem;
+    padding: 1rem;
   }
   .contact_layer_two {
     flex-direction: column;
