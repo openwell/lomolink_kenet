@@ -114,6 +114,15 @@ header {
     padding: 2rem 0rem;
   }
 }
+@media (max-width: 400px) {
+  .hero_text {
+    width: 80%;
+  }
+  /* .hero_text p {
+    font-size: 3.5rem;
+  } */
+}
+
 @media (max-width: 300px) {
   header {
     height: 62rem;
@@ -190,6 +199,11 @@ header {
     width: 100%;
     left: 0rem;
     right: 0rem;
+  }
+}
+@media (max-width: 400px) {
+  .admission {
+    margin-bottom: 8rem;
   }
 }
 .benefits {
@@ -340,7 +354,7 @@ header {
 @media (max-width: 900px) {
   .why_info {
     width: 100%;
-    padding-left: 2rem;
+    padding: 0 2rem;
   }
 }
 @media (max-width: 575.98px) {
@@ -431,6 +445,11 @@ header {
     width: 100%;
     left: 0rem;
     right: 0rem;
+  }
+}
+@media (max-width: 400px) {
+  .special {
+    margin-bottom: 8rem;
   }
 }
 /*  */

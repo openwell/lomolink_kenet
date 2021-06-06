@@ -156,7 +156,24 @@
     width: 80%;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 575.98px) {
+  .service_layer_two_left,
+  .service_layer_three_left,
+  .service_layer_four_left {
+    width: 90%;
+  }
+  .service_layer_two_right,
+  .service_layer_three_right,
+  .service_layer_four_right {
+    width: 90%;
+  }
+  .service_layer_one {
+    padding: 5rem 2rem;
+  }
+  .service_layer_one > div:nth-of-type(1),
+  .service_layer_one > div:nth-of-type(2) {
+    width: 100%;
+  }
   .service_layer_five_items {
     justify-content: center;
     text-align: center;
