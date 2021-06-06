@@ -135,6 +135,9 @@ header {
   right: 22%;
   color: var(--white);
 }
+.admission_box_two p {
+  text-align: justify;
+}
 @media (max-width: 1400px) {
   .admission_box_one {
     margin-left: 13%;
@@ -161,6 +164,7 @@ header {
     margin-left: 5rem;
   }
   .admission_box_two {
+    top: 52%;
     right: 8rem;
   }
 }
@@ -223,10 +227,13 @@ header {
   width: 80%;
   text-align: justify;
 }
+.benefit_item_right h6 {
+  text-align: left;
+}
 @media (max-width: 1050px) {
   .benefit_item_circle {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
   }
 }
 @media (max-width: 800px) {
@@ -242,11 +249,19 @@ header {
     width: 90%;
   }
   .benefit_item_right {
-    width: 90%;
+    width: 100%;
+  }
+  .benefit_item_right h6 {
+    background-color: #0bd2ce;
+    padding: 0 1rem;
+    border-radius: 0.5rem;
+    display: inline-block;
   }
   .benefit_item_circle {
-    width: 30px;
-    height: 30px;
+    display: none;
+  }
+  .benefits_header {
+    padding-left: 3rem;
   }
 }
 
@@ -267,12 +282,13 @@ header {
   margin: 5rem 0;
 }
 .why_info {
-  width: 50rem;
+  width: 50%;
   margin-bottom: 3rem;
   padding-left: 10rem;
 }
 .why_info p {
   color: #a9a9a9;
+  text-align: justify;
 }
 .why_metrics {
   display: flex;
@@ -344,7 +360,7 @@ header {
   height: auto;
 }
 .special_box_two {
-  background-color: #36b590;
+  background-color: #1eb5b2;
   border-radius: 0px 0px 30px 0px;
   position: absolute;
   width: 50rem;
@@ -353,6 +369,9 @@ header {
   right: 22%;
   color: var(--white);
   opacity: 0.9;
+}
+.special_box_two p {
+  text-align: justify;
 }
 .special_box_two button {
   background-color: #c6b2ff;
@@ -379,6 +398,7 @@ header {
 @media (max-width: 1150px) {
   .special_box_two {
     right: 12rem;
+    top: 52%;
   }
 }
 @media (max-width: 1010px) {

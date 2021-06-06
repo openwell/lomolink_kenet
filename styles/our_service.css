@@ -4,22 +4,16 @@
 }
 
 .service_layer_one {
-  display: flex;
-  justify-content: space-around;
-  padding: 5rem 0;
+  padding: 7rem 3rem;
 }
-.service_layer_one > div:nth-of-type(1) {
-  width: 30%;
-  /* margin-left: 10%; */
-}
-.service_layer_one > div:nth-of-type(1) h1 {
+
+.service_layer_one h1 {
   font-size: 4rem;
 }
-.service_layer_one > div:nth-of-type(2) {
-  width: 50%;
-  line-height: 2;
-  /* margin-left: 20%; */
+.service_layer_one p {
+  text-align: justify;
 }
+
 .service_layer_two {
   display: flex;
   justify-content: space-around;
@@ -79,6 +73,7 @@
 .service_layer_three_right p {
   margin-bottom: 2rem;
   line-height: 1.5;
+  text-align: justify;
 }
 .service_layer_three_right h1 {
   font-size: 4rem;
@@ -117,6 +112,7 @@
   height: 60rem;
   border-radius: 1rem;
   object-fit: cover;
+  object-position: right;
 }
 .service_layer_five_items {
   display: flex;

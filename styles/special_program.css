@@ -8,7 +8,7 @@
   text-align: justify;
 }
 .special_program:nth-of-type(even) {
-  background-color: #36b590;
+  background-color: #1eb5b2;
 }
 .special_program_item {
   display: flex;
