@@ -186,7 +186,7 @@ header {
     margin-left: 5rem;
   }
   .admission_box_two {
-    top: 52%;
+    top: 48%;
     right: 8rem;
   }
 }
@@ -199,11 +199,12 @@ header {
     width: 100%;
     left: 0rem;
     right: 0rem;
+    padding: 1.5rem;
   }
 }
 @media (max-width: 400px) {
   .admission {
-    margin-bottom: 8rem;
+    margin: 4rem 0;
   }
 }
 .benefits {
@@ -445,11 +446,12 @@ header {
     width: 100%;
     left: 0rem;
     right: 0rem;
+    padding: 1.5rem;
   }
 }
 @media (max-width: 400px) {
   .special {
-    margin-bottom: 8rem;
+    margin-bottom: 0rem;
   }
 }
 /*  */
