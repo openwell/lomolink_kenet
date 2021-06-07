@@ -13,6 +13,7 @@
 .special_program:last-of-type {
   background-color: #fff;
   color: #000;
+  margin-top: 9rem;
 }
 .special_program_item {
   display: flex;
