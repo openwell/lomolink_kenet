@@ -10,6 +10,10 @@
 .special_program:nth-of-type(even) {
   background-color: #1eb5b2;
 }
+.special_program:last-of-type {
+  background-color: #fff;
+  color: #000;
+}
 .special_program_item {
   display: flex;
   justify-content: space-between;
